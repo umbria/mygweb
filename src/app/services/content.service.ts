@@ -5,7 +5,7 @@ import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http
 import { catchError, tap, map } from 'rxjs/operators';
 import {GossipList} from '../do/gossipList';
 import {Content} from '../do/content';
-
+import * as util from 'util';
 
 const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'})

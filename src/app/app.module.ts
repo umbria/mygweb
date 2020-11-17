@@ -3,10 +3,13 @@ import {NgModule} from '@angular/core';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-
-
-
-
+import {TopBarComponent} from './top-bar/top-bar.component';
+import {ProductListComponent} from './product-list/product-list.component';
+import {ProductAlertsComponent} from './product-alerts/product-alerts.component';
+import {ProductDetailsComponent} from './product-details/product-details.component';
+import {CartComponent} from './cart/cart.component';
+import {ShippingComponent} from './shipping/shipping.component';
+import {CartService} from './cart.service';
 import {HttpClientModule} from '@angular/common/http';
 import {ReactiveFormsModule} from '@angular/forms';
 import {ContentListComponent} from './content-list/content-list.component';
@@ -45,8 +48,14 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatTreeModule } from '@angular/material/tree';
-
-
+import {ContentCardComponent} from './content-card/content-card.component';
+import { ContentDetailComponent } from './content-detail/content-detail.component';
+import { ExampleComponent } from './example/example.component';
+import { MatFontComponent } from './example/mat-font/mat-font.component';
+import { FlexNoScrollLayoutComponent } from './example/flex-no-scroll-layout/flex-no-scroll-layout.component';
+import { FlexNavigationAreaComponent } from './example/flex-navigation-area/flex-navigation-area.component';
+import { FlexBrowserBottomFooterComponent } from './example/flex-browser-bottom-footer/flex-browser-bottom-footer.component';
+import { FlexDifferentAligntmentComponent } from './example/flex-different-aligntment/flex-different-aligntment.component';
 import {InfiniteScrollModule} from 'ngx-infinite-scroll';
 import {FaIconLibrary, FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {fas } from '@fortawesome/free-solid-svg-icons';

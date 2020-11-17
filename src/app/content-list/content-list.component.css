@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+mat-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+  width: 95%;
+}
+.card-container {
+  /*  not needed styles to reflect it */
+  background: blue;
+  padding: 10px;
+  color: white;
+  width: 500px;
+
+  /* needed styles below */
+  display: flex;
+  justify-content: space-between;
+}
+/*mat-card-header {*/
+/*  background-color: #116a94;*/
+/*  color: white;*/
+/*  height: 50px;*/
+/*  width: 100%;*/
+/*}*/
+
+/*.container {*/
+/*  background-color: #87b6bd;*/
+/*  width: 100%;*/
+/*}*/
+/*mat-card-title {*/
+/*  line-height: 50px;*/
+/*  text-align: center;*/
+/*  vertical-align: middle;*/
+/*  width: 100%;*/
+/*}*/
+
+/*div {*/
+/*  width: 100%;*/
+/*}*/
