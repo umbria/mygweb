@@ -1,0 +1,19 @@
+<div class="search-results"
+     infinite-scroll
+     [infiniteScrollDistance]="scrollDistance"
+     [infiniteScrollThrottle]="throttle"
+     (scrolled)="onScrollDown($event)">
+    <p *ngFor="let i of array">
+        {{ i }}
+    </p>
+    <!--<mat-grid-list [cols]="6" rowHeight="300px">-->
+<!--    <mat-grid-tile *ngFor="let content of data.list ">-->
+<!--        <app-content-card [content]="content"></app-content-card>-->
+<!--    </mat-grid-tile>-->
+
+<!--</mat-grid-list>-->
+
+</div>
+
+
+
